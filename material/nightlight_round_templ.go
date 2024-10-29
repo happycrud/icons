@@ -8,7 +8,7 @@ package material
 import "github.com/a-h/templ"
 import templruntime "github.com/a-h/templ/runtime"
 
-func NightlightRound(size string, classes ...string) templ.Component {
+func NightlightRound2(size string, classes ...string) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templruntime.GetBuffer(templ_7745c5c3_W)
@@ -91,7 +91,7 @@ func NightlightRound(size string, classes ...string) templ.Component {
 	})
 }
 
-func NightlightRoundOutlined(size string, classes ...string) templ.Component {
+func NightlightRound2Outlined(size string, classes ...string) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templruntime.GetBuffer(templ_7745c5c3_W)
@@ -213,7 +213,7 @@ func NightlightRoundOutlined(size string, classes ...string) templ.Component {
 	})
 }
 
-func NightlightRoundRound(size string, classes ...string) templ.Component {
+func NightlightRound2Round(size string, classes ...string) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templruntime.GetBuffer(templ_7745c5c3_W)
@@ -335,7 +335,7 @@ func NightlightRoundRound(size string, classes ...string) templ.Component {
 	})
 }
 
-func NightlightRoundSharp(size string, classes ...string) templ.Component {
+func NightlightRound2Sharp(size string, classes ...string) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templruntime.GetBuffer(templ_7745c5c3_W)
@@ -457,7 +457,7 @@ func NightlightRoundSharp(size string, classes ...string) templ.Component {
 	})
 }
 
-func NightlightRoundTwotone(size string, classes ...string) templ.Component {
+func NightlightRound2Twotone(size string, classes ...string) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templruntime.GetBuffer(templ_7745c5c3_W)

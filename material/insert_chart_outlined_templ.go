@@ -8,7 +8,7 @@ package material
 import "github.com/a-h/templ"
 import templruntime "github.com/a-h/templ/runtime"
 
-func InsertChartOutlined(size string, classes ...string) templ.Component {
+func InsertChartOutlined2(size string, classes ...string) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templruntime.GetBuffer(templ_7745c5c3_W)
@@ -91,7 +91,7 @@ func InsertChartOutlined(size string, classes ...string) templ.Component {
 	})
 }
 
-func InsertChartOutlinedOutlined(size string, classes ...string) templ.Component {
+func InsertChartOutlined2Outlined(size string, classes ...string) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templruntime.GetBuffer(templ_7745c5c3_W)
@@ -174,7 +174,7 @@ func InsertChartOutlinedOutlined(size string, classes ...string) templ.Component
 	})
 }
 
-func InsertChartOutlinedRound(size string, classes ...string) templ.Component {
+func InsertChartOutlined2Round(size string, classes ...string) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templruntime.GetBuffer(templ_7745c5c3_W)
@@ -257,7 +257,7 @@ func InsertChartOutlinedRound(size string, classes ...string) templ.Component {
 	})
 }
 
-func InsertChartOutlinedSharp(size string, classes ...string) templ.Component {
+func InsertChartOutlined2Sharp(size string, classes ...string) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templruntime.GetBuffer(templ_7745c5c3_W)
@@ -340,7 +340,7 @@ func InsertChartOutlinedSharp(size string, classes ...string) templ.Component {
 	})
 }
 
-func InsertChartOutlinedTwotone(size string, classes ...string) templ.Component {
+func InsertChartOutlined2Twotone(size string, classes ...string) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templruntime.GetBuffer(templ_7745c5c3_W)

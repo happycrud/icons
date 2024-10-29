@@ -4,18 +4,19 @@ import (
 	"bytes"
 	"context"
 	"fmt"
+	"getsvg/material"
 	"os"
 	"path"
 	"strings"
 )
 
-func mainxi() {
-	Example("24", "ss", "dd").Render(context.Background(), os.Stdout)
+func main() {
+	material.AddTask("40", "red", "m-1").Render(context.Background(), os.Stdout)
 }
 
 var shap = []string{"", "outlined", "round", "sharp", "twotone"}
 
-func main() {
+func mainx() {
 	// 遍历
 	var root = "../material-design-icons/src/"
 	dirs, err := os.ReadDir(root)
@@ -39,6 +40,9 @@ func main() {
 					n := GoCamelCase(svg.Name())
 					if isASCIIDigit([]byte(n)[0]) {
 						n = "A" + n
+					}
+					if strings.HasSuffix(n, "Round") || strings.HasSuffix(n, "Outlined") {
+						n = n + "2"
 					}
 					if err == nil {
 						c := fmt.Sprintf(`
