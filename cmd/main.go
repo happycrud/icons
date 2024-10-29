@@ -8,7 +8,7 @@ import (
 	"path"
 	"strings"
 
-	"getsvg/material"
+	"github.com/happycrud/icons/material"
 )
 
 func main() {

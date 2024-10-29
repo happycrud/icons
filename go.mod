@@ -1,4 +1,4 @@
-module getsvg
+module github.com/happycrud/icons
 
 go 1.21.5
 
